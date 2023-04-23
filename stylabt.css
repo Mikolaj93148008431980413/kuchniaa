@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+}
+
+body{
+    background-image: url('kitchen.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 1950px;
+    background-position-x: center;
+    
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+    
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.abt h1{
+    font-size: 25px;
+    color: black;
+    max-width: 700px;
+    margin: auto;
+    
+
+}
